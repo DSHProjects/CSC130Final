@@ -1,0 +1,12 @@
+Art/f.png*f0
+Art/test_image_128x128.png*f1
+Art/pixil-frame-0.png*sf0
+Art/pixil-frame-1.png*sf1
+Art/pixil-frame-2.png*sf2
+Art/pixil-frame-3.png*sf3
+Art/pixil-frame-4.png*sf4
+Art/pixil-frame-5.png*sf5
+Art/pixil-frame-6.png*sf6
+Art/pixil-frame-7.png*sf7
+Art/pixil-frame-8.png*sf8
+Art/pixil-frame-9.png*sf9
