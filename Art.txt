@@ -10,3 +10,4 @@ Art/pixil-frame-6.png*sf6
 Art/pixil-frame-7.png*sf7
 Art/pixil-frame-8.png*sf8
 Art/pixil-frame-9.png*sf9
+Art/floor-tile-ptn-00.png*fp0
