@@ -21,15 +21,19 @@ public class Player {
 		if (currentState == MovementState.LEFT) xPos--;
 		if (currentState == MovementState.DOWN) yPos++;
 		if (currentState == MovementState.RIGHT) xPos++;
+		if (currentState == MovementState.STOPPED) {
+			animationIdx = 0;
+			return;
+		}
 		
-		if (pastState == currentState && currentState != MovementState.STOPPED && animationIdx < animationFrames.get(currentState).size() - 1) {
+		if (pastState == currentState && animationIdx < animationFrames.get(currentState).size() - 1) {
 			animationIdx++;
 		}
 		else {
 			animationIdx = 0;
+			pastState = currentState;
 		}
-		pastState = currentState;
-		
+			
 	}
 	
 	public void addFrames(MovementState state, ArrayList<spriteInfo> frames) {
